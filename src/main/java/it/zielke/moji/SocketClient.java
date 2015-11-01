@@ -516,9 +516,9 @@ public class SocketClient {
 	 * @throws IOException
 	 *             if the file could not be read
 	 */
-	@edu.umd.cs.findbugs.annotations.SuppressWarnings(
-			value = "VA_FORMAT_STRING_USES_NEWLINE",
-			justification = "We do want platform-independent newline here.")
+//	@edu.umd.cs.findbugs.annotations.SuppressWarnings(
+//			value = "VA_FORMAT_STRING_USES_NEWLINE",
+//			justification = "We do want platform-independent newline here.")
 	public void uploadFile(File file, boolean isBaseFile) throws IOException {
 		if (currentStage != Stage.AWAITING_FILES
 				&& currentStage != Stage.AWAITING_QUERY) {

@@ -16,3 +16,4 @@ target/**
 ehthumbs.db
 Thumbs.db
 /target
+/bin/
